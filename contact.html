@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - Henrik Granum</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fontawesome.css">
+
+    <script defer src="script/Contact.js"></script>
+    <script defer src="script/scriptContact.js"></script>
+</head>
+
+<body onload="displayProfile()">
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="logo">
+            <img class="logo" src="images/logo.svg" alt="Logo">
+        </a>
+
+        <!-- Navigation -->
+        <nav>
+            <ul id="navlinks">
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="relations.html"><i class="fas fa-dice"></i>Relations</a></li>
+                <li><a href="quiz.html"><i class="fas fa-comment-dots"></i>Quiz</a></li>
+                <li id="navcurrent"><a href="contact.html"><i class="fas fa-comment-dots"></i>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- Page description -->
+        <div id="pagedescription">
+            <div id="pagedescriptioncontent">
+                <h1>Contact</h1>
+                <p>Save your contact information here.</p>
+            </div>
+        </div>
+
+        <!-- Page content -->
+        <div id="wrapperother">
+
+            <form name="Login" method="post" action="#" onsubmit="return validateForm(event)">
+                <label for="fName">Firstname*:</label>
+                <input type="text" name="fName" id="fName" required>
+
+                <label for="lName">Lastname*:</label>
+                <input type="text" name="lName" id="lName" required>
+
+                <label for="age">Age*:</label>
+                <input type="text" name="age" id="age" required>
+                
+                <label for="email">E-mail*:</label>
+                <input type="email" name="email" id="email" required>
+
+                <label for="address">Address*:</label>
+                <input type="text" name="address" id="address" required>
+
+                <label for="city">City*:</label>
+                <input type="text" name="city" id="city" required>
+
+                <input type="submit" name="sub" value="Save">
+            </form>
+
+        </div>
+    </main>
+
+   <!-- FOOTER -->
+   <footer>
+
+    <div>
+        <img id="footerlogo" src="images/ntnu-logo.png"
+            alt="The logo of Norwegian University of Science and Technology">
+    </div>
+
+    <div>
+        <p class="smaller">This webpage is an exam project created by the <abbr
+            title="Bachelor i webutvikling (Bachelor in Web Development)">BWU</abbr> student Henrik Landgraff 
+            Granum as a part of the subject <a href="https://www.ntnu.edu/studies/courses/IDG1011"
+            target="_blank">IDG1011</a> of the department of design.</p>
+    </div>
+
+</footer>
+</body>
+
+</html>

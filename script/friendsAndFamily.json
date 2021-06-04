@@ -1,0 +1,123 @@
+[
+    {
+      "name": "Marcus Gimse",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Jose David",
+      "age": 20,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Krzysztof Andrzej",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Erik Vågå",
+      "age": 20,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Aron",
+      "age": 21,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Embrik",
+      "age": 19,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Lena",
+      "age": 20,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Kasper Jensen",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Thor Munch",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Jan Inge",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Marius Skaten",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Lena",
+      "age": 34,
+      "city": "Lillehammer",
+      "relation": "Family"
+    },
+    {
+      "name": "Ingunn Hatlehol",
+      "age": 40,
+      "city": "Lillehammer",
+      "relation": "Family"
+    },
+    {
+      "name": "Knut Standal",
+      "age": 56,
+      "city": "Lillehammer",
+      "relation": "Family"
+    },
+    {
+      "name": "Lena Hammer",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+      "name": "Malcolm",
+      "age": 45,
+      "city": "Lillehammer",
+      "relation": "Family"
+    },
+    {
+      "name": "Leonard",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Family"
+    },
+    {
+      "name": "Egor",
+      "age": 23,
+      "city": "Lillehammer",
+      "relation": "Family"
+    },
+    {
+      "name": "Simen Tokerød",
+      "age": 18,
+      "city": "Lillehammer",
+      "relation": "Friend"
+    },
+    {
+        "name": "Ola Vestad",
+        "age": 18,
+        "city": "Lillehammer",
+        "relation": "Friend"
+    }
+  ]
+  

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz - Henrik Granum</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/fontawesome.css">
+
+    <script defer src="script/scriptQuiz.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header>
+        <a href="index.html" class="logo">
+            <img class="logo" src="images/logo.svg" alt="Logo">
+        </a>
+
+        <!-- Navigation -->
+        <nav>
+            <ul id="navlinks">
+                <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="relations.html"><i class="fas fa-dice"></i>Relations</a></li>
+                <li id="navcurrent"><a href="quiz.html"><i class="fas fa-comment-dots"></i>Quiz</a></li>
+                <li><a href="contact.html"><i class="fas fa-comment-dots"></i>Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main>
+        <!-- Page description -->
+        <div id="pagedescription">
+            <div id="pagedescriptioncontent">
+                <h1>Quiz</h1>
+                <p>Let's take a quiz. How well do you know me? Click on the correct answer.</p>
+            </div>
+        </div>
+
+        <!-- Page content -->
+        <div id="wrapperother">
+            
+            <div id="quiz-content">
+                <h2>How old am I?</h2>
+                <h3 onclick="qOne(this)">- 20</h3>
+                <h3 onclick="qOne(this)">- 22</h3>
+                <h3 onclick="qOne(this)">- 19</h3>
+            </div>
+          
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div>
+            <img id="footerlogo" src="images/ntnu-logo.png"
+                alt="The logo of Norwegian University of Science and Technology">
+        </div>
+
+        <div>
+            <p class="smaller">This webpage is an exam project created by the <abbr
+                title="Bachelor i webutvikling (Bachelor in Web Development)">BWU</abbr> student Henrik Landgraff 
+                Granum as a part of the subject <a href="https://www.ntnu.edu/studies/courses/IDG1011"
+                target="_blank">IDG1011</a> of the department of design.</p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
